@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"8339d6a5b601d04e","type":"text","text":"### Python Roadmap","x":-160,"y":-25,"width":229,"height":60},
+		{"id":"a92dcbb394e10612","type":"text","text":"## 📚 Tips Belajar Efektif\n- Konsisten 1–2 jam setiap hari lebih baik daripada 6 jam di akhir pekan.\n- Tulis ulang kode dengan tangan biar nempel.\n- Jangan cuma baca, **latihan dan debugging itu guru terbaik.**\n- Simpan semua proyekmu di satu folder — biar bisa lihat progresmu sendiri.\n","x":240,"y":-123,"width":560,"height":257},
+		{"id":"698abebb0a86b590","type":"text","text":"\n> Panduan ini dibuat agar kamu bisa belajar Python dari nol secara terstruktur, santai, dan tetap nyantol di kepala. Cocok dibaca lewat **Obsidian**.\n","x":240,"y":180,"width":621,"height":129},
+		{"id":"893fd2d409ad6355","type":"text","text":"**Durasi:** 2–3 minggu  \n**Tujuan:** Mengerti logika dasar, struktur data, dan cara Python berpikir.","x":69,"y":590,"width":470,"height":79},
+		{"id":"b6c4885660dfb318","type":"text","text":"## 🌱 Level 1: Dasar-Dasar Python\n","x":-263,"y":470,"width":435,"height":80},
+		{"id":"e63802e0a9ebb9b5","type":"text","text":"### 🔹 Materi yang Dipelajari\n- Instalasi Python & VS Code\n- Menjalankan file `.py` di terminal\n- Variabel dan tipe data (`int`, `float`, `str`, `bool`)\n- Operator aritmatika dan logika\n- `input()` dan `print()`\n- Konversi tipe data (`int()`, `float()`, `str()`)\n- Struktur kontrol: `if`, `elif`, `else`\n- Looping: `for`, `while`, `break`, `continue`\n- Struktur data dasar: `list`, `tuple`, `set`, `dict`","x":680,"y":440,"width":492,"height":380},
+		{"id":"b59abf861e47dc09","type":"text","text":"### 🧩 Latihan\n- Buat konverter suhu (Celsius ↔ Fahrenheit)\n- Buat program hitung luas lingkaran\n- Buat kalkulator sederhana dengan `if` dan `elif`","x":69,"y":700,"width":511,"height":160},
+		{"id":"ba46ab2bc7495579","type":"text","text":"## ⚙️ Level 2: Fungsi & Modularitas","x":-263,"y":1020,"width":435,"height":80},
+		{"id":"8fc92bf1da63f2b4","type":"text","text":"**Durasi:** 2 minggu  \n**Tujuan:** Membuat kode yang rapi, bisa dipakai ulang.","x":69,"y":1140,"width":470,"height":60},
+		{"id":"35f3b39b0e54d580","type":"text","text":"### 🧩 Latihan\n- Fungsi konversi suhu jadi modul terpisah (`converter.py`)\n- Buat fungsi menghitung diskon harga barang\n","x":69,"y":1229,"width":461,"height":151},
+		{"id":"20a4abd38a29c298","type":"text","text":"### 🔹 Materi yang Dipelajari\n- Membuat fungsi (`def`)\n- Parameter dan `return`\n- Scope variabel (lokal vs global)\n- Modul dan `import`","x":680,"y":1070,"width":492,"height":200},
+		{"id":"c5c38103093e434e","type":"text","text":"## 🧠 Level 3: Pemrograman Berorientasi Objek (OOP)","x":-263,"y":1560,"width":435,"height":100},
+		{"id":"f8848029f61bce39","type":"text","text":"**Durasi:** 2 minggu  \n**Tujuan:** Menyimpan, membaca, dan mengelola data dari file.","x":69,"y":1700,"width":470,"height":100},
+		{"id":"ddbb63c1321fb5ab","type":"text","text":"### 🔹 Materi yang Dipelajari\n\n- Membaca & menulis file (`open()`, `with`)\n- Menangani error (`try`, `except`, `finally`)\n- Menyimpan data dalam format JSON (`import json`)","x":680,"y":1664,"width":492,"height":173},
+		{"id":"efa3c4c333bd6fc9","type":"text","text":"### 🧩 Latihan\n\n- Buat class `Mobil` dengan atribut `merk`, `warna`, `kecepatan`\n- Tambahkan method `jalan()` dan `berhenti()`","x":69,"y":1837,"width":470,"height":163}
+	],
+	"edges":[
+		{"id":"c40103173f530e65","fromNode":"8339d6a5b601d04e","fromSide":"bottom","toNode":"b6c4885660dfb318","toSide":"top"},
+		{"id":"8afcfe67f1ff7d58","fromNode":"8339d6a5b601d04e","fromSide":"right","toNode":"a92dcbb394e10612","toSide":"left"},
+		{"id":"37fa8973b4419995","fromNode":"8339d6a5b601d04e","fromSide":"right","toNode":"698abebb0a86b590","toSide":"left"},
+		{"id":"87b7c5397806cce8","fromNode":"b6c4885660dfb318","fromSide":"bottom","toNode":"893fd2d409ad6355","toSide":"left"},
+		{"id":"5b75fd7393331e9a","fromNode":"893fd2d409ad6355","fromSide":"right","toNode":"e63802e0a9ebb9b5","toSide":"left"},
+		{"id":"e3fa1a24e5322ad8","fromNode":"e63802e0a9ebb9b5","fromSide":"left","toNode":"b59abf861e47dc09","toSide":"right"},
+		{"id":"1683fa9d4e603391","fromNode":"b6c4885660dfb318","fromSide":"bottom","toNode":"ba46ab2bc7495579","toSide":"top"},
+		{"id":"e011b5c27f39fdf7","fromNode":"ba46ab2bc7495579","fromSide":"bottom","toNode":"8fc92bf1da63f2b4","toSide":"left"},
+		{"id":"eb2f1b54ff140c2a","fromNode":"8fc92bf1da63f2b4","fromSide":"right","toNode":"20a4abd38a29c298","toSide":"left"},
+		{"id":"b0f783d558153fb2","fromNode":"20a4abd38a29c298","fromSide":"left","toNode":"35f3b39b0e54d580","toSide":"right"},
+		{"id":"789d11088226e786","fromNode":"ba46ab2bc7495579","fromSide":"bottom","toNode":"c5c38103093e434e","toSide":"top"},
+		{"id":"a343eac68708f5dd","fromNode":"c5c38103093e434e","fromSide":"bottom","toNode":"f8848029f61bce39","toSide":"left"},
+		{"id":"eb5355bc24768073","fromNode":"f8848029f61bce39","fromSide":"right","toNode":"ddbb63c1321fb5ab","toSide":"left"},
+		{"id":"a0e1a7e1cacceb63","fromNode":"ddbb63c1321fb5ab","fromSide":"left","toNode":"efa3c4c333bd6fc9","toSide":"right"}
+	]
+}

@@ -1,0 +1,73 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": true,
+  "showAllFolderIcons": true,
+  "minimalFolderIcons": true,
+  "showMarkdownTabIcons": true,
+  "showTitleIcons": true,
+  "showTagPillIcons": true,
+  "showMenuActions": true,
+  "showSuggestionIcons": true,
+  "showQuickSwitcherIcons": true,
+  "showMoveFileIcons": true,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": false,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": false,
+    "rulePage": "folder"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "ChatGPT.md": {
+      "icon": "lucide-globe"
+    },
+    "Mini-Projek": {
+      "icon": "lucide-swords",
+      "unsynced": [
+        "6bdf950b1d8ff9a8"
+      ]
+    },
+    "Obsidian-md/Canvas": {
+      "icon": "lucide-network",
+      "unsynced": [
+        "6bdf950b1d8ff9a8"
+      ]
+    },
+    "Obsidian-md/Markdown": {
+      "icon": "lucide-notepad-text",
+      "unsynced": [
+        "6bdf950b1d8ff9a8"
+      ]
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {},
+  "fileRules": [],
+  "folderRules": [
+    {
+      "id": "TO9G7",
+      "name": "Aturan tanpa judul",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "contains"
+        }
+      ],
+      "enabled": true
+    }
+  ]
+}
