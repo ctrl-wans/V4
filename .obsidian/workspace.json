@@ -43,11 +43,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://vscode.dev/",
-                "title": "Workspace - Visual Studio Code",
+                "title": "Welcome - Workspace - Visual Studio Code",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Workspace - Visual Studio Code"
+              "title": "Welcome - Workspace - Visual Studio Code"
             }
           }
         ],
@@ -229,6 +229,8 @@
   },
   "active": "e69a8a891f742ad9",
   "lastOpenFiles": [
+    "tes.py",
+    "LICENSE",
     "Obsidian-md/Canvas/Python-Roadmap.canvas",
     "Obsidian-md/Markdown/python_level_1_dasar.md",
     "ChatGPT_MD/templates",
